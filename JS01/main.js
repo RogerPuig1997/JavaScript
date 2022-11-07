@@ -1,2 +1,2 @@
-let nombre = prompt('Cual es tu nombre?');
+var nombre = prompt('Cual es tu nombre?');
 window.alert(nombre);
