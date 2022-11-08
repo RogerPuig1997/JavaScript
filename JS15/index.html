@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h3>Add Item</h3>
+        <div>
+            <button onclick="pushItem()">Push</button>
+            <button onclick="unshiftItem()">Unshift</button>
+            <button onclick="insertItem()">Insert at</button>
+            <input type="number" id="insert_num" value="0" min="0" max="">
+        </div>
+    </div>
+    <div>
+        <h3>Delete Item</h3>
+        <div>
+            <button onclick="popItem()">Pop</button>
+            <button onclick="shiftItem()">Shift</button>
+            <button onclick="removeItem()">Remove at</button>
+            <input type="number" id="remove_num" value="0" min="0" max="">
+        </div>
+    </div>
+    <div id="items_arr">
+        
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
